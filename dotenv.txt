@@ -1,0 +1,4 @@
+renomear arquivo para: .env
+
+NODE_ENV=development
+PORT=3000
