@@ -59,8 +59,12 @@ nest g filter common/filters/http-exception --no-spec
 nest g res posts
 
 
-
+git config --global user.email "esmeraldovandreh@gmail.com"
+git config --global user.name "Vandreh"
 
 git init
-git status
 git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Vandreh/PRISMA_API.git
+git push -u origin main
